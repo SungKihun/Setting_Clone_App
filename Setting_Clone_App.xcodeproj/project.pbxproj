@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B47D985274E4ABE0086C105 /* MyIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B47D983274E4ABE0086C105 /* MyIDViewController.swift */; };
+		7B47D986274E4ABE0086C105 /* MyIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B47D984274E4ABE0086C105 /* MyIDViewController.xib */; };
 		7BB874F1274BB57A00082D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB874F0274BB57A00082D28 /* AppDelegate.swift */; };
 		7BB874F3274BB57A00082D28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB874F2274BB57A00082D28 /* SceneDelegate.swift */; };
 		7BB874F5274BB57A00082D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB874F4274BB57A00082D28 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B47D983274E4ABE0086C105 /* MyIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIDViewController.swift; sourceTree = "<group>"; };
+		7B47D984274E4ABE0086C105 /* MyIDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyIDViewController.xib; sourceTree = "<group>"; };
 		7BB874ED274BB57A00082D28 /* Setting_Clone_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Setting_Clone_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB874F0274BB57A00082D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BB874F2274BB57A00082D28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,14 +77,16 @@
 				7BB874F0274BB57A00082D28 /* AppDelegate.swift */,
 				7BB874F2274BB57A00082D28 /* SceneDelegate.swift */,
 				7BB874F4274BB57A00082D28 /* ViewController.swift */,
+				7BB874F6274BB57A00082D28 /* Main.storyboard */,
 				7BB8750C274BED0A00082D28 /* SettingModel.swift */,
 				7BB87504274BBBD500082D28 /* ProfileCell.swift */,
 				7BB87505274BBBD500082D28 /* ProfileCell.xib */,
 				7BB87508274BC7B500082D28 /* MenuCell.swift */,
 				7BB87509274BC7B500082D28 /* MenuCell.xib */,
-				7BB874F6274BB57A00082D28 /* Main.storyboard */,
 				7BB8750E274C060D00082D28 /* GeneralViewController.swift */,
 				7BB87510274C064D00082D28 /* GeneralViewController.storyboard */,
+				7B47D983274E4ABE0086C105 /* MyIDViewController.swift */,
+				7B47D984274E4ABE0086C105 /* MyIDViewController.xib */,
 				7BB874F9274BB57B00082D28 /* Assets.xcassets */,
 				7BB874FB274BB57B00082D28 /* LaunchScreen.storyboard */,
 				7BB874FE274BB57B00082D28 /* Info.plist */,
@@ -150,6 +156,7 @@
 				7BB874FD274BB57B00082D28 /* LaunchScreen.storyboard in Resources */,
 				7BB87507274BBBD500082D28 /* ProfileCell.xib in Resources */,
 				7BB8750B274BC7B500082D28 /* MenuCell.xib in Resources */,
+				7B47D986274E4ABE0086C105 /* MyIDViewController.xib in Resources */,
 				7BB874FA274BB57B00082D28 /* Assets.xcassets in Resources */,
 				7BB874F8274BB57A00082D28 /* Main.storyboard in Resources */,
 			);
@@ -167,6 +174,7 @@
 				7BB8750A274BC7B500082D28 /* MenuCell.swift in Sources */,
 				7BB8750D274BED0A00082D28 /* SettingModel.swift in Sources */,
 				7BB87506274BBBD500082D28 /* ProfileCell.swift in Sources */,
+				7B47D985274E4ABE0086C105 /* MyIDViewController.swift in Sources */,
 				7BB874F1274BB57A00082D28 /* AppDelegate.swift in Sources */,
 				7BB874F3274BB57A00082D28 /* SceneDelegate.swift in Sources */,
 			);
