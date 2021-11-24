@@ -25,6 +25,9 @@
                     <rect key="frame" x="20" y="64" width="68.5" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
+                    <connections>
+                        <action selector="doCancel:" destination="-1" eventType="touchUpInside" id="nrr-R9-CjH"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dL-Xj-vLl">
                     <rect key="frame" x="340" y="64" width="54" height="31"/>
@@ -73,8 +76,8 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Don't have an Apple ID or forgot it?"/>
                 </button>
-                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="W9i-Vt-Q73">
-                    <rect key="frame" x="30" y="394" width="354" height="60"/>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="W9i-Vt-Q73">
+                    <rect key="frame" x="30" y="411" width="354" height="60"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icloud" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eQM-L0-WeP">
                             <rect key="frame" x="0.0" y="1" width="64.5" height="56.5"/>
@@ -128,6 +131,7 @@
                 <constraint firstAttribute="trailing" secondItem="adI-8x-5RG" secondAttribute="trailing" id="Zon-nl-Ywj"/>
                 <constraint firstAttribute="trailing" secondItem="qh5-YL-i7E" secondAttribute="trailing" constant="20" id="b9u-sZ-Iqn"/>
                 <constraint firstItem="b3b-As-8CC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="fsA-md-ZzD"/>
+                <constraint firstItem="W9i-Vt-Q73" firstAttribute="top" secondItem="oo7-yP-XMQ" secondAttribute="bottom" constant="40" id="gT0-Gl-YoO"/>
                 <constraint firstItem="lgM-Q0-SV0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h8h-nS-eF5"/>
                 <constraint firstItem="Tpy-9C-HnL" firstAttribute="leading" secondItem="b3b-As-8CC" secondAttribute="trailing" constant="10" id="jbR-kV-7nY"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="W9i-Vt-Q73" secondAttribute="trailing" constant="30" id="jrn-hw-KvW"/>
